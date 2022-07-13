@@ -3,7 +3,7 @@
 My solutions for exercism.org GoLang exercises.
 You can view every exercise on [exerxism go exercises section](https://exercism.org/tracks/go/exercises)
 
-I have added 17 of them so far.
+I have added 18 of them so far.
 
 *WORK IN PROGRESS*
 
@@ -41,6 +41,13 @@ I have added 17 of them so far.
     │   ├── README.md
     │   ├── blackjack.go
     │   ├── blackjack_test.go
+    │   └── go.mod
+    ├── booking-up-for-beauty
+    │   ├── HELP.md
+    │   ├── HINTS.md
+    │   ├── README.md
+    │   ├── booking_up_for_beauty.go
+    │   ├── booking_up_for_beauty_test.go
     │   └── go.mod
     ├── card-tricks
     │   ├── HELP.md
@@ -135,5 +142,5 @@ I have added 17 of them so far.
         ├── welcome_to_tech_palace.go
         └── welcome_to_tech_palace_test.go
 
-18 directories, 105 files
+19 directories, 111 files
 ```
