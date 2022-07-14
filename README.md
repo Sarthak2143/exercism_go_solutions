@@ -3,13 +3,13 @@
 My solutions for exercism.org GoLang exercises.
 You can view every exercise on [exerxism go exercises section](https://exercism.org/tracks/go/exercises)
 
-I have added 18 of them so far.
+I have added 19 of them so far.
 
 *WORK IN PROGRESS*
 
 ## Directory tree
 
-```
+```bash
 .
 ├── LICENSE
 ├── README.md
@@ -78,6 +78,14 @@ I have added 18 of them so far.
     │   ├── election_day_test.go
     │   ├── election_result.go
     │   └── go.mod
+    ├── elons-toys
+    │   ├── HELP.md
+    │   ├── HINTS.md
+    │   ├── README.md
+    │   ├── car.go
+    │   ├── elons_toys.go
+    │   ├── elons_toys_test.go
+    │   └── go.mod
     ├── gross-store
     │   ├── HELP.md
     │   ├── HINTS.md
@@ -142,5 +150,5 @@ I have added 18 of them so far.
         ├── welcome_to_tech_palace.go
         └── welcome_to_tech_palace_test.go
 
-19 directories, 111 files
+20 directories, 118 files
 ```
