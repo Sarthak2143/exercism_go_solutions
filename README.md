@@ -3,7 +3,7 @@
 My solutions for exercism.org GoLang exercises.
 You can view every exercise on [exerxism go exercises section](https://exercism.org/tracks/go/exercises)
 
-I have added 19 of them so far.
+I have added 20 of them so far.
 
 *WORK IN PROGRESS*
 
@@ -114,6 +114,13 @@ I have added 19 of them so far.
     │   ├── go.mod
     │   ├── lasagna_master.go
     │   └── lasagna_master_test.go
+    ├── logs-logs-logs
+    │   ├── HELP.md
+    │   ├── HINTS.md
+    │   ├── README.md
+    │   ├── go.mod
+    │   ├── logs_logs_logs.go
+    │   └── logs_logs_logs_test.go
     ├── need-for-speed
     │   ├── HELP.md
     │   ├── HINTS.md
@@ -150,5 +157,5 @@ I have added 19 of them so far.
         ├── welcome_to_tech_palace.go
         └── welcome_to_tech_palace_test.go
 
-20 directories, 118 files
+21 directories, 124 files
 ```
