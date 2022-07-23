@@ -3,7 +3,7 @@
 My solutions for exercism.org GoLang exercises.
 You can view every exercise on [exerxism go exercises section](https://exercism.org/tracks/go/exercises)
 
-I have added 20 of them so far.
+I have added 21 of them so far.
 
 *WORK IN PROGRESS*
 
@@ -135,6 +135,14 @@ I have added 20 of them so far.
     │   ├── go.mod
     │   ├── party_robot.go
     │   └── party_robot_test.go
+    ├── the-farm
+    │   ├── HELP.md
+    │   ├── HINTS.md
+    │   ├── README.md
+    │   ├── go.mod
+    │   ├── the_farm.go
+    │   ├── the_farm_test.go
+    │   └── types.go
     ├── vehicle-purchase
     │   ├── HELP.md
     │   ├── HINTS.md
@@ -157,5 +165,5 @@ I have added 20 of them so far.
         ├── welcome_to_tech_palace.go
         └── welcome_to_tech_palace_test.go
 
-21 directories, 124 files
+22 directories, 131 files
 ```
