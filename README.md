@@ -7,183 +7,29 @@ I have added 24 of them so far.
 
 *WORK IN PROGRESS*
 
-## Directory tree
+---
 
-```bash
-.
-├── LICENSE
-├── README.md
-└── src
-    ├── animal-magic
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── animal_magic.go
-    │   ├── animal_magic_test.go
-    │   └── go.mod
-    ├── annalyns-infiltration
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── annalyns_infiltration.go
-    │   ├── annalyns_infiltration_test.go
-    │   └── go.mod
-    ├── bird-watcher
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── bird_watcher.go
-    │   ├── bird_watcher_test.go
-    │   └── go.mod
-    ├── blackjack
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── blackjack.go
-    │   ├── blackjack_test.go
-    │   └── go.mod
-    ├── booking-up-for-beauty
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── booking_up_for_beauty.go
-    │   ├── booking_up_for_beauty_test.go
-    │   └── go.mod
-    ├── card-tricks
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── card_tricks.go
-    │   ├── card_tricks_test.go
-    │   └── go.mod
-    ├── cars-assemble
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── cars_assemble.go
-    │   ├── cars_assemble_test.go
-    │   └── go.mod
-    ├── chessboard
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── chessboard.go
-    │   ├── chessboard_test.go
-    │   └── go.mod
-    ├── election-day
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── election_day.go
-    │   ├── election_day_test.go
-    │   ├── election_result.go
-    │   └── go.mod
-    ├── elons-toys
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── car.go
-    │   ├── elons_toys.go
-    │   ├── elons_toys_test.go
-    │   └── go.mod
-    ├── gross-store
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── gross_store.go
-    │   └── gross_store_test.go
-    ├── hamming
-    │   ├── HELP.md
-    │   ├── README.md
-    │   ├── cases_test.go
-    │   ├── go.mod
-    │   ├── hamming.go
-    │   └── hamming_test.go
-    ├── interest-is-interesting
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── interest_is_interesting.go
-    │   └── interest_is_interesting_test.go
-    ├── lasagna
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── lasagna.go
-    │   └── lasagna_test.go
-    ├── lasagna-master
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── lasagna_master.go
-    │   └── lasagna_master_test.go
-    ├── logs-logs-logs
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── logs_logs_logs.go
-    │   └── logs_logs_logs_test.go
-    ├── need-for-speed
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── need_for_speed.go
-    │   └── need_for_speed_test.go
-    ├── parsing-log-files
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── parsing_log_files.go
-    │   └── parsing_log_files_test.go
-    ├── party-robot
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── party_robot.go
-    │   └── party_robot_test.go
-    ├── the-farm
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── the_farm.go
-    │   ├── the_farm_test.go
-    │   └── types.go
-    ├── two-fer
-    │   ├── HELP.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── two_fer.go
-    │   └── two_fer_test.go
-    ├── vehicle-purchase
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── vehicle_purchase.go
-    │   └── vehicle_purchase_test.go
-    ├── weather-forecast
-    │   ├── HELP.md
-    │   ├── HINTS.md
-    │   ├── README.md
-    │   ├── go.mod
-    │   ├── weather_forecast.go
-    │   └── weather_forecast_test.go
-    └── welcome-to-tech-palace
-        ├── HELP.md
-        ├── HINTS.md
-        ├── README.md
-        ├── go.mod
-        ├── welcome_to_tech_palace.go
-        └── welcome_to_tech_palace_test.go
-
-25 directories, 148 files
-```
+- [animal-magic](src/animal-magic)
+- [annalyns-infiltration](src/annalyns-infiltration)
+- [bird-watcher](src/bird-watcher)
+- [blackjack](src/blackjack)
+- [booking-up-for-beauty](src/booking-up-for-beauty)
+- [card-tricks](src/card-tricks)
+- [cars-assemble](src/cars-assemble)
+- [chessboard](src/chessboard)
+- [election-day](src/election-day)
+- [elons-toys](src/elons-toys)
+- [gross-store](src/gross-store)
+- [hamming](src/hamming)
+- [interest-is-interesting](src/interest-is-interesting)
+- [lasagna](src/lasagna)
+- [lasagna-master](src/lasagna-master)
+- [logs-logs-logs](src/logs-logs-logs)
+- [need-for-speed](src/need-for-speed)
+- [parsing-log-files](src/parsing-log-files)
+- [party-robot](src/party-robot)
+- [the-farm](src/the-farm)
+- [two-fer](src/two-fer)
+- [vehicle-purchase](src/vehicle-purchase)
+- [weather-forecast](src/weather-forecast)
+- [welcome-to-tech-palace](src/welcome-to-tech-palace)
