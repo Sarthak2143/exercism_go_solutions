@@ -34,5 +34,6 @@ I have added 25 of them so far.
 - [weather-forecast](src/weather-forecast)
 - [welcome-to-tech-palace](src/welcome-to-tech-palace)
 - [difference-of-squares](src/difference-of-squares)
+- [census](src/census)
 
 ---
