@@ -36,5 +36,6 @@ I have added 26 of them so far.
 - [difference-of-squares](src/difference-of-squares)
 - [census](src/census)
 - [raindrops](src/raindrops)
+- [leap](src/leap)
 
 ---
