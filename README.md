@@ -3,7 +3,7 @@
 My solutions for exercism.org GoLang exercises.
 You can view every exercise on [exerxism go exercises section](https://exercism.org/tracks/go/exercises)
 
-I have added 25 of them so far.
+I have added 26 of them so far.
 
 *WORK IN PROGRESS*
 
@@ -35,5 +35,6 @@ I have added 25 of them so far.
 - [welcome-to-tech-palace](src/welcome-to-tech-palace)
 - [difference-of-squares](src/difference-of-squares)
 - [census](src/census)
+- [raindrops](src/raindrops)
 
 ---
